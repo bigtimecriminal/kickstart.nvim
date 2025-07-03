@@ -1016,3 +1016,4 @@ require('lazy').setup({
 -- vim: ts=2 sts=2 sw=2 et
 --
 require 'config.lazy'
+vim.keymap.set('n', '-', '<cmd>Explore<CR>')
